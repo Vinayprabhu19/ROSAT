@@ -1,0 +1,29 @@
+@font-face{
+    font-family:font1;
+    src:url(../img/font1.woff);
+}
+@font-face{
+    font-family:font2;
+    src:url(../img/font1.woff);
+}
+@font-face{
+    font-family:font3;
+    src:url(../img/font1.woff);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: url(../img/homebg.png);
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.container{
+	text-align: center;
+	font-family: font2;	
+	margin-top: 200px;
+	font-size: 27px;
+	padding:10px;
+}
